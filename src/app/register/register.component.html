@@ -1,0 +1,9 @@
+<h1>Enregistrer un joueur</h1>
+<div>
+  <label>Pseudo: </label><input type="text" #name/>
+</div>
+<div>
+  <label>Image:  </label><input type="text" #image (keyup)="apercu.src=value"/>
+  <img class="avatar" [src]="image.value" #apercu/>
+</div>
+<button (click)="registerPlayer(name.value, image.value)">Enregistrer</button>
