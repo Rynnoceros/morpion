@@ -12,6 +12,7 @@ export class AppComponent {
 
   joueur1 : Joueur;
   joueur2 : Joueur;
+  activePlayer : Joueur;
 
   constructor(title: Title) {
     title.setTitle("Jeu du morpion")

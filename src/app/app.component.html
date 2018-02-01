@@ -4,3 +4,4 @@
 <div><label>Joueur 1:</label>{{joueur1?.nom}}</div>
 <div><label>Joueur 2:</label>{{joueur2?.nom}}</div>
 <app-register (onPlayerRegistered)="connectPlayer($event)"></app-register>
+<app-grid [player1]="joueur1" [player2]="joueur2"></app-grid>
