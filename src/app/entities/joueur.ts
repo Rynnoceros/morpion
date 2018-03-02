@@ -1,6 +1,7 @@
 export class Joueur {
-    nom: string;
+    id:number;
+    name: string;
     nombrePartie: number;
     victoires: number;
-    image: string;
+    avatar: string;
 }
